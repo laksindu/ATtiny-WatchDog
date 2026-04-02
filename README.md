@@ -1,7 +1,5 @@
 # Isolated UART Hardware Watchdog (ATtiny85)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A lightweight, highly reliable, galvanically isolated hardware watchdog for embedded systems and IoT devices (ESP32, Arduino, STM32, etc.). This watchdog operates independently of the target MCU, recovering it from kernel panics, endless loops, or network lock-ups.
 
 Unlike complex supervisors, this project uses a minimalist approach: it requires no external crystals, runs entirely on the ATtiny85's internal oscillator, and uses a simple UART heartbeat mechanism.
@@ -14,7 +12,6 @@ Unlike complex supervisors, this project uses a minimalist approach: it requires
 - [Logic & Behavior](#logic--behavior)
 - [Flashing the ATtiny85](#flashing-the-attiny85)
 - [Target Device Code](#target-device-code)
-- [License](#license)
 
 ## Overview
 
@@ -91,7 +88,3 @@ void loop() {
   delay(1000);
 }
 ```
-
-## License
-
-This project is open-source under the MIT License. Feel free to modify and adapt it for your own embedded reliability needs!
