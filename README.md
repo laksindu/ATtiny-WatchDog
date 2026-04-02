@@ -1,6 +1,6 @@
 # Isolated UART Hardware Watchdog (ATtiny85)
 
-A lightweight, highly reliable, galvanically isolated hardware watchdog for embedded systems and IoT devices (ESP32, Arduino, STM32, etc.). This watchdog operates independently of the target MCU, recovering it from kernel panics, endless loops, or network lock-ups.
+A lightweight, highly reliable, isolated hardware watchdog for embedded systems and IoT devices (ESP32, Arduino, STM32, etc.). This watchdog operates independently of the target MCU, recovering it from kernel panics, endless loops, or network lock-ups.
 
 Unlike complex supervisors, this project uses a minimalist approach: it requires no external crystals, runs entirely on the ATtiny85's internal oscillator, and uses a simple UART heartbeat mechanism.
 
